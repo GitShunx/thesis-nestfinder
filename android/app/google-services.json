@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "65484489817",
+    "project_id": "nestfinder-f830e",
+    "storage_bucket": "nestfinder-f830e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65484489817:android:49bdcd3a9e61826f4fdd48",
+        "android_client_info": {
+          "package_name": "com.example.thesis_nestfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65484489817-ll4tlb65uinrs3ec7klsc4c5p6504afs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thesis_nestfinder",
+            "certificate_hash": "5de21446540fc2b6686418fbca9e98e0eca19988"
+          }
+        },
+        {
+          "client_id": "65484489817-5rgr4i1h4615vj1pfpmf3cbn54uq2l2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-SdoKhMf0qaTeE2vr-Zvsppy4nuIvaRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65484489817-5rgr4i1h4615vj1pfpmf3cbn54uq2l2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
