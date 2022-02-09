@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:thesis_nestfinder/page_one.dart';
-import 'package:thesis_nestfinder/page_three.dart';
-import 'package:thesis_nestfinder/page_two.dart';
+import 'package:thesis_nestfinder/app/4_marketplace/marketplace.dart';
+import 'package:thesis_nestfinder/app/6_accounts_page/accounts_page.dart';
+import 'package:thesis_nestfinder/app/5_business_page/business_page.dart';
 import 'package:thesis_nestfinder/services/auth.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({
+class RoutePage extends StatefulWidget {
+  const RoutePage({
     Key? key,
     required this.auth,
   }) : super(key: key);
   final AuthBase auth;
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<RoutePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<RoutePage> {
   int _selectedIndex = 1;
 
   final _pageOptions = [

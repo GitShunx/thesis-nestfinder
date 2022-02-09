@@ -33,19 +33,19 @@ dependencies:
 #project dependencies that i used on this project ----
   firebase_core: ^1.12.0
   firebase_storage: ^10.2.7
-  file_picker: ^4.3.3
-  firebase_auth: ^3.3.6
+  file_picker: ^4.4.0
+  firebase_auth: ^3.3.7
   google_sign_in: ^5.2.3
   #feb 9 changes ---- enabling camera to get pictures and used it for prof pic
-  camera: ^0.9.4+11
-  path_provider: ^2.0.8
+  camera: ^0.9.4+12
+  path_provider: ^2.0.9
   #if i used 1.8.1 there will be an error
   path: ^1.8.0
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.4
 
 dev_dependencies:
   flutter_test:

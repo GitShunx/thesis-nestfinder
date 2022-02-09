@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:thesis_nestfinder/app/2_sign_in/sign_in_page.dart';
-import 'package:thesis_nestfinder/app/3_home_page/home_page.dart';
+import 'package:thesis_nestfinder/app/3_route/route.dart';
 import 'package:thesis_nestfinder/services/auth.dart';
 
 class LandingPage extends StatelessWidget {
@@ -20,7 +20,7 @@ class LandingPage extends StatelessWidget {
               auth: auth,
             );
           }
-          return HomePage(auth: auth);
+          return RoutePage(auth: auth);
 
         }
         return const Scaffold(
